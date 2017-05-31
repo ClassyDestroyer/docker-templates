@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Date>2017-05-31</Date>
+  <Beta>False</Beta>
+  <Category>MediaApp</Category>
+  <Name>NZBGet2Influx</Name>
+  <Project>https://github.com/mvantassel/nzbget2influx</Project>
+  <Changes>
+[font size=3]2016.09.27[/font]
+- Initial Release
+  </Changes>
+  <Overview>
+    Pipe select NZBGet metrics to InfluxDB so it can be graphed in Grafana
+  </Overview>
+  <Description>
+  </Description>
+  <Registry>https://hub.docker.com/r/matthewvantassel/nzbget2influx/</Registry>
+  <GitHub>https://github.com/mvantassel/nzbget2influx</GitHub>
+  <Repository>mvantassel/nzbget2influx</Repository>
+  <Support></Support>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish/>
+  </Networking>
+  <Environment/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/NZBGet2Influx</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI></WebUI>
+  <Banner></Banner>
+  <Icon></Icon>
+</Containers>
